@@ -44,19 +44,9 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
+## Setup and Testing
+First, you need to install all the dependencies.
+Also, docker-compose.yml is added here to quickly deploy the database and connect it to the backend. I also added Swagger for easy API testing. So, after all the settings, you can run the project and the link `http://localhost:8080/api` will open the Swagger UI, where you can test the program
 
 ## Support
 
